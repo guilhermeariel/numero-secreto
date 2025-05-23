@@ -1,0 +1,13 @@
+🧭 1. Terminal (Linux / Git Bash / PowerShell)
+Comando	Função
+cd nome_da_pasta	Entra na pasta
+cd ..	Volta uma pasta
+ls ou dir	Lista os arquivos/pastas
+mkdir nome	Cria uma nova pasta
+touch arquivo.txt	Cria um arquivo (Linux/mac)
+code .	Abre o VS Code na pasta atual
+rm arquivo.txt	Remove arquivo
+clear	Limpa a tela
+pwd	Mostra o caminho atual
+echo "texto"	Mostra texto no terminal
+exit	Fecha o terminal
