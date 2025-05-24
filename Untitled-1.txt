@@ -1,5 +1,5 @@
 🧭 1. Terminal (Linux / Git Bash / PowerShell)
-Comando	Função
+
 cd nome_da_pasta	Entra na pasta
 cd ..	Volta uma pasta
 ls ou dir	Lista os arquivos/pastas
@@ -11,3 +11,35 @@ clear	Limpa a tela
 pwd	Mostra o caminho atual
 echo "texto"	Mostra texto no terminal
 exit	Fecha o terminal
+
+🌱 2. Comandos Git mais usados
+Comando	Função
+git init	Inicializa um repositório Git
+git status	Mostra status de alterações
+git add .	Adiciona todas as mudanças à staging
+git commit -m "mensagem"	Cria um commit
+git log	Mostra o histórico de commits
+git push origin main	Envia commits para o repositório remoto
+git pull origin main	Puxa atualizações do repositório remoto
+git branch	Lista branches
+git checkout -b nova-branch	Cria e muda para uma nova branch
+git merge nome-da-branch	Junta uma branch com a atual
+git revert <hash>	Cria um commit que desfaz outro
+git stash	Guarda alterações sem commitar
+git stash pop	Recupera alterações guardadas
+git reset HEAD~1 --soft	Remove o último commit, mantendo staging
+git commit --amend	Corrige o último commit
+
+✍️ 3. Comandos úteis no Vim
+Entrar em modo de edição	i (insert)
+Voltar ao modo comando	Esc
+Salvar e sair	:wq + Enter
+Sair sem salvar	:q! + Enter
+Salvar sem sair	:w + Enter
+Apagar linha atual	dd
+Copiar linha	yy
+Colar linha copiada	p
+Mover cursor por palavra	w (próxima), b (anterior)
+Ir para o início da linha	0
+Ir para o fim da linha	$
+Pesquisar palavra	/palavra e n para próximo
