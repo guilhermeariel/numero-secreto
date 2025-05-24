@@ -6,6 +6,7 @@ let tentativas = 1;
 function exibirTextoNaTela(tag, texto) {
     let campo = document.querySelector(tag); // Encontra o elemento HTML pela tag
     campo.innerHTML = texto; // Coloca o texto dentro do elemento
+    responsiveVoice.speak(texto, 'Brazilian Portuguse Famele', {rate:1.2});
 };
 
 function exibirMensageminicial() {
