@@ -22,7 +22,7 @@ function verificarChute() {
         return;
     }
     if (tentativas == 10) {
-        exibirTextoNaTela()
+        exibirTextoNaTela('p', 'Um dia você consegue')
     }
     if (chute == numeroSecreto) {
         exibirTextoNaTela('h1', 'Acertou!');
